@@ -18,7 +18,7 @@ import static org.openqa.selenium.By.partialLinkText;
 public class IssueSteps {
     @BeforeAll
     static void beforeAll() {
-        Configuration.browserSize = String.valueOf(true);
+        Configuration.pageLoadTimeout = 600000;
     }
 
     private final static String REPOSITORY = "eroshenkoam/allure-example";

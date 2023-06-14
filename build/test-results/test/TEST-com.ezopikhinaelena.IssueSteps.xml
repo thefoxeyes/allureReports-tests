@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ezopikhinaelena.IssueSteps" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-06-14T02:28:23" hostname="DESKTOP-S5PBHHP" time="13.92">
+<testsuite name="com.ezopikhinaelena.IssueSteps" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-14T14:03:44" hostname="DESKTOP-S5PBHHP" time="17.623">
   <properties/>
-  <testcase name="Раздел Issues. Issue #1 есть в списке" classname="com.ezopikhinaelena.IssueSteps" time="9.888"/>
-  <testcase name="Раздел Issues. Issue #1 есть в списке" classname="com.ezopikhinaelena.IssueSteps" time="2.375"/>
-  <testcase name="Раздел Issues. Issue #1 есть в списке" classname="com.ezopikhinaelena.IssueSteps" time="1.648"/>
+  <testcase name="Раздел Issues. Issue #1 есть в списке" classname="com.ezopikhinaelena.IssueSteps" time="17.623"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 42550
+  <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 3272
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июн. 14, 2023 5:28:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+июн. 14, 2023 5:03:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
 ]]></system-err>
 </testsuite>
