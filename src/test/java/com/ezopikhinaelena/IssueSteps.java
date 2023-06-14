@@ -1,6 +1,9 @@
 package com.ezopikhinaelena;
 
+import com.codeborne.selenide.Configuration;
 import io.qameta.allure.*;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -13,6 +16,10 @@ import static org.openqa.selenium.By.linkText;
 import static org.openqa.selenium.By.partialLinkText;
 
 public class IssueSteps {
+    @BeforeAll
+    static void beforeAll() {
+        Configuration.browserSize = String.valueOf(true);
+    }
 
     private final static String REPOSITORY = "eroshenkoam/allure-example";
     private final static Integer issueNumber = 1;
@@ -75,5 +82,9 @@ public class IssueSteps {
         steps.goToRepository(REPOSITORY);
         steps.openIssuesTab();
         steps.shouldSeeIssueWithNumber(issueNumber);
+    }
+    @AfterAll
+    static void afterAll() {
+        Configuration.holdBrowserOpen = true;
     }
 }
